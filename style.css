@@ -1,0 +1,42 @@
+body,
+html {
+	font-family: 'Arial', sans-serif;
+	height: 100%;
+    display: grid;
+    background-color: antiquewhite;
+}
+
+form {
+	min-width: 800px;
+	height: auto;
+	border-radius: 10px;
+	padding: 0;
+	margin: auto;
+    text-align: center;
+    }
+
+select {
+    border: 1px solid #afafaf;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+input {
+    width: 75px;
+    outline: none;
+    font-size: 20px;
+}
+
+code {
+    font-size: 16px;
+    font-style: italic;
+    display: block;
+}
+
+button{
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #888;
+    background-color: #6578ee;
+}
