@@ -17,7 +17,13 @@
 
 # Calculator Refactor
 
-This repo is developed in order to train refactoring, organization of development process and concerning. The indication on the original repository was:
+This repo is developed in order to train refactoring, organization of development process and concerning. 
+Here is a preview of the page:
+
+![calculatorScreenshoot](./images/Calculator-screeshoot.png)
+
+
+The indication on the original repository was:
 
 * Follow [this tutorial from `mmtuts`](https://www.youtube.com/watch?v=qQEYAOPWDzk) and refactor your finished code into the files of this repository.  Be sure to organize your development process using Git Branches
 > * To learn more about how to organize your code & how to write development-strategies for this project, you can study the [using-user-events exercises](https://github.com/hackyourfuturebelgium/using-user-events)

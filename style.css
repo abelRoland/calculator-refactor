@@ -3,6 +3,7 @@ html {
 	font-family: 'Arial', sans-serif;
 	height: 100%;
     display: grid;
+    background-color: antiquewhite;
 }
 
 form {
@@ -22,7 +23,7 @@ select {
 }
 
 input {
-    width: 250px;
+    width: 75px;
     outline: none;
     font-size: 20px;
 }
@@ -31,4 +32,11 @@ code {
     font-size: 16px;
     font-style: italic;
     display: block;
+}
+
+button{
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #888;
+    background-color: #6578ee;
 }
