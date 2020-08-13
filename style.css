@@ -27,7 +27,8 @@ input {
     font-size: 20px;
 }
 
-#result {
+code {
     font-size: 16px;
     font-style: italic;
+    display: block;
 }

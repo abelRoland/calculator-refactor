@@ -24,6 +24,7 @@ const doMathTests = [
 function doMath(operation, a, b) {
   // these if statements make sure all arguments are the correct type
   // they will throw errors if your handler passes the wrong type arguments
+  let calculate;
   if (typeof operation !== 'string') {
     throw new Error('operation should be a string');
   }
@@ -34,8 +35,18 @@ function doMath(operation, a, b) {
     throw new Error('b should be a number');
   }
   // write your code below this comment:
-
-
+  if (operation === 'add') {
+    calculate = a + b;
+  } else if (operation === 'min') {
+    calculate = a - b;
+  } else if (operation === 'div') {
+    calculate = a / b;
+  } else if (operation === 'mul') {
+    calculate = a * b;
+  } else {
+    calculate = 'invalid operation';
+  }
+  return calculate;
 
 }
 
