@@ -20,7 +20,7 @@
 This repo is developed in order to train refactoring, organization of development process and concerning. 
 Here is a preview of the page:
 
-![calculatorScreenshoot](./images/Calculator-screeshoot.png)
+![calculatorScreenshoot](./images/calculator.png)
 
 
 The indication on the original repository was:
